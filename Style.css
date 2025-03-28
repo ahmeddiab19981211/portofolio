@@ -114,6 +114,10 @@ section#services .content .service-cards, section#contact .content .contact {
     transition: 0.7s;
     background-color: #f7f7f7;
 }
+/* New : Service card and phone card */
+section#services .content .service-cards, section#contact .content .contact {
+    width: 40em;
+}
 section#services .content .service-cards:hover, section#contact .content .contact:hover {
     transform: scale(1.1);
 }
@@ -190,6 +194,9 @@ section#contact .content .contact h3 {
 section#contact .content .contact p {
     font-size: 1.1em;
     color: #025689;
+}
+section#contact a {
+    text-decoration: none;
 }
 /* Sixth Section : Footer */
 footer {
